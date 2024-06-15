@@ -9,7 +9,7 @@
 		<version>2.3.4.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>henry</groupId>
+	<groupId>ces</groupId>
 	<artifactId>Hotel-Reservation-Postgres</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Hotel-Reservation-Postgres</name>

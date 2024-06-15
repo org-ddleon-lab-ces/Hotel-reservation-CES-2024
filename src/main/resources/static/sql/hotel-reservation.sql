@@ -1,10 +1,5 @@
 -- MySQL dump 10.13  Distrib 8.0.20, for Win64 (x86_64)
---
--- By : henry azer
--- Date : 19-09-2020
--- College ID : 220190314
--- WhatsApp : +201207885279
--- Mail : henryazer@outlook.com
+
 --
 -- ------------------------------------------------------
 --
