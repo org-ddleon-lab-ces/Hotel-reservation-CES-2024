@@ -26,7 +26,7 @@ class HotelReservationControllerIntegrationTests {
 	private HotelReservationController controller;
 	
 	@Test
-	void contextLoads() throws Exception {
+	void contextLoads() {
 		assertThat(controller).isNotNull();
 	}
 	

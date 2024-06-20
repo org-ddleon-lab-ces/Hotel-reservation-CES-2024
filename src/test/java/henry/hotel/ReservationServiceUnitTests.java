@@ -40,7 +40,7 @@ class ReservationServiceUnitTests {
 	private ReservationServiceImpl service;
 	
 	@Test
-	void serviceLoads() throws Exception {
+	void serviceLoads() {
 		assertThat(this.service).isNotNull();
 	}
 

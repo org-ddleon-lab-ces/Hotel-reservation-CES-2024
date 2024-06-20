@@ -2,8 +2,6 @@ package henry.hotel;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import java.time.Duration;
-
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -23,7 +21,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 @ActiveProfiles("test")
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
-public class HotelReservationE2ETests {
+class HotelReservationE2ETests {
 	private static final String SING_IN_TITLE_EXPECT = "Sign In";
 	private static final String SING_IN_TITLE = ".sign-in-container #regForm h1";
 	private static final String SING_IN_NAME = ".sign-in-container #regForm input[name=username]";
@@ -147,11 +145,4 @@ public class HotelReservationE2ETests {
 		assertThat(getText(selector)).contains(expected);
 	}
 	
-	void waitUntil(int time) {
-		try {
-			Thread.sleep(time);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-	}
 }
